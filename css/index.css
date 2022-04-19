@@ -1,3 +1,16 @@
 body {
     background-color: #eee;
 }
+
+p {
+    color: teal;
+}
+
+h1 {
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
