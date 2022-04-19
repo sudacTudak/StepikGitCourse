@@ -30,5 +30,23 @@
       blanditiis minus repellat quod voluptatem! Nulla illum iure ea facere
       error.
     </p>
+    <p class="reset-without-staging">
+      git checkout (co) . Удалит изменения, еще не залитые в стейдж
+    </p>
+    <p class="reset-from-stage">
+      git reset . Вернет все файлы из stage. Для удаления изменений вернись на
+      шаг 1
+    </p>
+    <p class="reset-after-commit">
+      <p>
+          git reset --hard HEAD^1 - удалит изменения последнего коммита, передвинет
+          указатель на коммит, стоящий перед удаленным
+      </p> 
+      <p>
+          git reset --soft HEAD^1 -
+          вернет изменеия последнего коммита в stage, передвинет указатель на
+          коммит, стоящий перед удаленным. Чтобы вытащить из stage - вернись на шаг 2
+      </p>
+    </p>
   </body>
 </html>
