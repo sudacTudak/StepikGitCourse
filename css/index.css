@@ -14,3 +14,7 @@ h1 {
 h2{
     font-size: 40px;
 }
+
+.text {
+    color: red;
+}
